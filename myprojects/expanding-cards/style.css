@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+div#container{
+    margin:20px auto;
+    padding:5px 20px;
+    justify-content: center;
+    display: flex;
+}
+div#container .pic{
+    width: 120px;
+    height: 700px;
+    border-radius: 60px;
+    transition: all 700ms;
+    background-size: cover;
+    position:relative;
+}
+div#container .pic h2{
+    bottom: 30px;
+    left:30px;
+    position: absolute;
+    display: none;
+}
+div#container .pic.active h2{
+    bottom: 30px;
+    left:30px;
+    position: absolute;
+    display: inline;
+}
+div#container .pic.active{
+    width: 700px;
+    height: 700px;
+    border-radius: 60px;
+    transition: all 700ms;
+    background-size: cover;
+    position:relative;
+}
+div#container .pic:nth-child(1){
+    background-image: url(./庐山.jpg);
+}
+div#container .pic:nth-child(2){
+    background-image: url(./哈尔滨.jpg);
+}
+div#container .pic:nth-child(3){
+    background-image: url(./南京.jpg);
+}
+div#container .pic:nth-child(4){
+    background-image: url(./宿迁.jpg);
+}
+div#container .pic:nth-child(5){
+    background-image: url(./连云港.jpg);
+}
+a.return{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin:0px auto;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color:white;
+}
