@@ -1,3 +1,11 @@
+# HTML,CSS,JS小项目
+
+这个小项目是fork自https://github.com/bradtraversy/50projects50days，自己重新写了一遍
+
+`my_projects`文件夹下是对应的自己实现版本，上级目录的对应文件夹为原仓库版本。
+
+以下是原仓库的Readme:
+
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
 This is the main repository for all of the projects in the course.
