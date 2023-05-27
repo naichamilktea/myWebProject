@@ -27,18 +27,22 @@ div#progress div#circle-container div.circle{
     line-height: 70px;
     text-align: center;
     border-radius: 50%;
+    transition: all 0.5s;
 }
 div#progress div#circle-container div.connector{
     width: 50px;
     height: 2px;
     background-color: lightgrey;
+    transition: all 0.5s;
 }
 div#progress div#circle-container div.circle.active{
     color:white;
     background-color: blueviolet;
+    transition: all 0.5s;
 }
 div#progress div#circle-container div.connector.active{
     background-color: blueviolet;
+    transition: all 0.5s;
 }
 div#progress div#button-container{
     width: 98%;
