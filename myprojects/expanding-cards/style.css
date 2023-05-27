@@ -19,18 +19,18 @@ div#container .pic{
     transition: all 700ms;
     background-size: cover;
     position:relative;
+    overflow: hidden;
 }
 div#container .pic h2{
     bottom: 30px;
     left:30px;
+    height: 32px;
     position: absolute;
-    display: none;
+    white-space: nowrap;
+    visibility:hidden;
 }
 div#container .pic.active h2{
-    bottom: 30px;
-    left:30px;
-    position: absolute;
-    display: inline;
+    visibility: visible;
 }
 div#container .pic.active{
     width: 700px;

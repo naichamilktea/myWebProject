@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+div#progress{
+    margin:10px auto;
+    padding: 3px;
+    height: 200px;
+}
+div#progress div#circle-container{
+    width: 98%;
+    height: 80px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#progress div#circle-container div.circle{
+    width: 70px;
+    height: 70px;
+    color:blueviolet;
+    background-color: lightgray;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+}
+div#progress div#circle-container div.connector{
+    width: 50px;
+    height: 2px;
+    background-color: lightgrey;
+}
+div#progress div#circle-container div.circle.active{
+    color:white;
+    background-color: blueviolet;
+}
+div#progress div#circle-container div.connector.active{
+    background-color: blueviolet;
+}
+div#progress div#button-container{
+    width: 98%;
+    height: 50px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+}
+div#progress button.switch{
+    background-color: blue;
+    cursor: pointer;
+    color:white;
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin:0 20px;
+    
+}
+div#progress button.switch:disabled{
+    background-color: grey;
+    cursor:not-allowed;
+}
+div#progress button.switch:hover.active{
+    box-shadow: 0 0 5px blue;
+    transition: all 0.3s;
+}
+a.return{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin:0px auto;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color:white;
+}
